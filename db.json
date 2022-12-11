@@ -1,0 +1,98 @@
+{
+  "articles": [
+    {
+      "id": 1,
+      "nom": "Article 1",
+      "description": " decription test 1",
+      "like": 2,
+      "image": "https://source.unsplash.com/random/1000x300",
+      "status": true,
+      "commentaires": [
+        {
+          "id": 1,
+          "contenu": "lorem ipsum",
+          "pseudo": "Béatrice",
+          "dt": 1649277945051
+        },
+        {
+          "id": 2,
+          "contenu": "lorem ipsum",
+          "pseudo": "Béatrice",
+          "dt": 1649000000000
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "nom": "article 2",
+      "description": "description test 2",
+      "like": 8,
+      "image": "https://source.unsplash.com/random/1000x300",
+      "status": true,
+      "commentaires": [
+        {
+          "id": 1,
+          "contenu": "lorem ipsum",
+          "pseudo": "Béatrice",
+          "dt": 1649277945051
+        },
+        {
+          "id": 2,
+          "contenu": "lorem ipsum",
+          "pseudo": "Béatrice",
+          "dt": 1649277945051
+        }
+      ]
+    }
+  ],
+  "users": [
+    {
+      "id": 1,
+      "email": "client@yahoo.fr",
+      "password": "123456",
+      "pseudo": "client"
+    },
+    {
+      "id": 2,
+      "email": "admin@yahoo.fr",
+      "password": "123456",
+      "pseudo": "yahooyeh"
+    },
+    {
+      "email": "final@yahoo.fr",
+      "password": "123456",
+      "pseudo": "finalyahoo",
+      "id": 3
+    },
+    {
+      "email": "final2@yahoo.fr",
+      "password": "123456",
+      "pseudo": "finalyahoo2",
+      "id": 4
+    },
+    {
+      "email": "final3@yahoo.fr",
+      "password": "123456",
+      "pseudo": "final3yahoo",
+      "id": 5
+    },
+    {
+      "email": "sami.hella123@gmail.com",
+      "password": "123456",
+      "pseudo": "samix",
+      "id": 6
+    },
+    {
+      "email": "samitest@gmail.com",
+      "password": "123456",
+      "pseudo": "samitest",
+      "id": 7
+    },
+    {
+      "email": "ss@gmail.com",
+      "password": "123456",
+      "pseudo": "ss",
+      "id": 8
+    }
+  ]
+}
